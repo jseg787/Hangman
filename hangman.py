@@ -56,7 +56,7 @@ def game():
         print("You lost!")
 
 while True:
-    user_play = input("Type 'play' to play the game, 'exit' to quit:")
+    user_play = input("Type 'play' to play the game, 'exit' to quit: ")
     if user_play == 'play':
         game()
     elif user_play == 'exit':
